@@ -1,0 +1,517 @@
+
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    background-color: #ffe500;
+    padding-left: 15px;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+  }
+
+  
+.title01{
+  width: 419px;
+  height: 62px;
+  background-color:#FFE500;
+  margin-bottom: 20px;
+}
+
+#hd01{
+  margin-left: 20px;
+  padding: 10px 0;
+  font-family: Roboto Black;
+  font-size: 36;
+}
+
+.middle-body {
+    width: 70vw;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    padding: 5px;
+  }
+
+.fig {
+  margin: 3%;
+  position: relative;
+}
+
+.figcaption {
+  font-weight: bold;
+  padding: 0.5rem;
+  text-decoration: underline;
+  position: absolute;
+  bottom: 0rem;
+  color: white;
+  text-align: center;
+  background-color: #00356b;
+  width: 100%;
+  cursor: pointer;
+}  
+
+.active, .figcaption:hover{
+  color: #00356B; 
+  background-color:#f1f1f1;
+  transition: 0.3s;
+}
+
+#Admissions {
+    background-color: #ffe500;
+    padding: 10px;
+    width: 300px;
+    font-weight: 650;
+    font-size: x-large;
+  }
+
+
+.collapsible {
+    background-color: #F47920;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+.active, .collapsible:hover {
+  color: #00356B; 
+  background-color:#f1f1f1;
+  transition: 0.3s;
+   } 
+
+.divScroll {
+  overflow:scroll;
+  height:400px;
+  width:100%;
+}
+
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+
+.hyperlink {
+    background-color: #B4D8DD;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .hyperlink:hover{
+  color: #00356B; 
+  background-color:#f1f1f1;
+  transition: 0.3s;
+}
+
+.backG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+  .mySlides {
+    display: none;
+  }
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 60vw;
+    position: relative;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.809);
+    padding: 25px ;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: sticky;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #f47920;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-fill-mode: forwards; 
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.action {
+    color: black;
+    font-weight: bold;
+    background-color: #B4D8DD;
+    text-decoration: underline;
+    padding: 10px 24px;
+    width: fit-content;
+    margin: right 0;
+    cursor: pointer;
+    margin-bottom: 2.5%;
+    border: none;
+}   
+
+.active, .action:hover{
+  color: #00356B; 
+  background-color:#f1f1f1;
+  transition: 0.3s;
+}
+
+.img-container01 {
+  background: url("images/Background.jpg") no-repeat fixed center;
+  background-size: cover;
+
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 135rem;
+  opacity: 0.6;
+}
+
+/*Search bar*/
+.search-container {
+  position: fixed;
+  right: 28px;
+  top: 36px;
+}
+/* First Section slider*/
+#bg01{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, 0.779);
+  padding: 1rem;
+  margin-left: 18rem;
+  margin-top: 143px;
+  width: 942px;
+  /* height: 748px; */
+}
+
+#bg02{
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+  margin-left: 18rem;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 942px;
+}
+
+/* Searcgh Bar*/
+.d-flex{
+  display: flex;
+  justify-content:left;
+}
+
+.slidecontainer {
+  margin-top: 20px;
+}
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  height: 8px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 30px; /* Set a specific slider handle width */
+  height: 24px; /* Slider handle height */
+  border-radius: 2px;
+  background: #464A4C; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.side-nav{
+  width:150px;
+  height: 100%;
+  /* background: #00356B; */
+  position: fixed;
+  top:0;
+  left:20px;
+}
+
+.logoMain{
+  display:block;
+}
+.logo-img{
+  width: 150px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.nav-links{
+  list-style: none;
+  position: relative;
+  padding-left: 0;
+  background: #00356B;
+}
+.nav-links > li{
+  padding: 10px 0;
+}
+
+.nav-links > li:hover {
+  background: rgb(215, 215, 215);
+  box-shadow: 0 5px 10px rgba(255,255,255,0.4);
+}
+
+.nav-links > li a{
+  color: white;
+  text-decoration: none;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  font-family: Roboto ;
+}
+
+div.dropdown-menu {
+  left: 39px !important;
+}
+
+
+div.programs-container {
+  display: block;
+  /* box-shadow: none; */
+}
+
+button.programs, button.programs:focus-visible {
+  /* box-shadow: none; */
+  display: block;
+  /* background-color: transparent; */
+  border: none;
+  color: white;
+  border-color: none;
+}
+
+button.programs:hover{
+  color:#00356B ;
+}
+#butDrop{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.nav-links li:hover a{
+  color: #00356B; 
+  transition: 0.3s;
+}
+
+/* Search Design*/
+.placeholder{
+  width: 50px;
+}
+
+
+.text-uppercase{
+  font-size: 3 0px;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 80px;
+}
+
+/*Footer */
+
+
+.list-unstyled{
+  display: flex;
+  flex-direction: column;
+  justify-items:flex-start;
+}
+
+li.coli i{
+  font-size: 35px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2px;
+  color: black;
+}
+
+li.coli{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 40px;
+  margin-left: 50px;
+}
+#pC2022{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.foo{
+  height: 35px;
+  color: black;
+
+}
+.col-lg-3{
+    flex: 0 0 auto;
+    width: 25%;
+    position: absolute;
+    margin-left: 1050px;
+    margin-right: 20px;
+}
+.logo{
+  display: flex;
+  position: absolute;
+  margin-right: 50px;
+  width: 200px;
+}
+
+.textC{
+  color: black;
+}
+
+
+
+/* Left menu in smaller screen*/
+@media only screen and (max-width:600px){
+  .side-nav{
+    width: 110px;
+  }
+  .logo-img{
+    width: 110px;
+  }
+  .nav-links li a{
+    margin-left: 0;
+    font-size: 15px;
+    justify-content: center;
+  }
+}
+

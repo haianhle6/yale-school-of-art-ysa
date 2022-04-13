@@ -1,0 +1,445 @@
+.img-container01 {
+  background: url("images/Background.jpg") no-repeat fixed center;
+  background-size: cover;
+
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 185rem;
+  opacity: 0.6;
+}
+/*Search bar*/
+.search-container {
+  position: fixed;
+  right: 28px;
+  top: 36px;
+}
+/* First Section slider*/
+#bg01{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, 0.779);
+  padding: 1rem;
+  margin-left: 18rem;
+  margin-top: 143px;
+  width: 942px;
+  /* height: 748px; */
+}
+
+/* Text over the Slider*/
+.container-text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
+
+#bg03{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, 0.779);
+  padding: 1rem;
+  margin-left: 18rem;
+  margin-top: 143px;
+  width: 942px;
+}
+/* Searcgh Bar*/
+.d-flex{
+  display: flex;
+  justify-content:left;
+}
+
+.slidecontainer {
+  margin-top: 20px;
+}
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  height: 8px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 30px; /* Set a specific slider handle width */
+  height: 24px; /* Slider handle height */
+  border-radius: 2px;
+  background: #464A4C; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+
+
+/* .slidecontainer > input {
+  width: 100%;
+} */
+
+.side-nav{
+  width:150px;
+  height: 100%;
+  /* background: #00356B; */
+  position: fixed;
+  top:0;
+  left:20px;
+}
+
+.logoMain{
+  display:block;
+}
+.logo-img{
+  width: 150px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.nav-links{
+  list-style: none;
+  position: relative;
+  padding-left: 0;
+  background: #00356B;
+}
+.nav-links > li{
+  padding: 10px 0;
+}
+
+.nav-links > li:hover {
+  background: rgb(215, 215, 215);
+  box-shadow: 0 5px 10px rgba(255,255,255,0.4);
+}
+
+.nav-links > li a{
+  color: white;
+  text-decoration: none;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  font-family: Roboto ;
+}
+
+div.dropdown-menu {
+  left: 39px !important;
+}
+
+
+div.programs-container {
+  display: block;
+  /* box-shadow: none; */
+}
+
+button.programs, button.programs:focus-visible {
+  /* box-shadow: none; */
+  display: block;
+  /* background-color: transparent; */
+  border: none;
+  color: white;
+  border-color: none;
+}
+
+button.programs:hover{
+  color:#00356B ;
+}
+#butDrop{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+
+
+/* div.programs-container:hover button.programs {
+  background-color: #00356B;
+  color: #ffffff; 
+  transition: 0.3s;
+} */
+
+.nav-links li:hover a{
+  color: #00356B; 
+  transition: 0.3s;
+}
+
+/* Search Design*/
+.placeholder{
+  width: 50px;
+}
+
+/*Wiki*/
+.wiki{
+  background-color: #B4D8DD;
+  padding: 5px;
+  font-family: roboto thin;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+/*Program section*/
+#bg02{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, 0.779);
+  padding: 1rem;
+  margin-left: 18rem;
+  margin-top: 143px;
+  width: 942px;
+}
+.title01{
+  width: 419px;
+  height: 62px;
+  background-color:#FFE500;
+  margin-bottom: 20px;
+}
+#hd01{
+  margin-left: 20px;
+  padding: 10px 0;
+  font-family: Roboto Black;
+  font-size: 36;
+}
+
+.coll{
+  background-color:#00356B;
+  color: white;
+  width: 201px;
+  height: 101px;  
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+/*Calendar*/
+.container-Cal{
+  width: 100%;
+  height: 56vh;
+  background-color: #12121f00;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.column-one {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row-one::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.calendar {
+  margin-top: 0px;
+  width: 45rem;
+  height: 25rem;
+  background-color: #c6c6c6;
+  border-color: #262626;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.month {
+  width: 100%;
+  height: 6rem;
+  background-color: #00356B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.month i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.month h1 {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.month p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.weekdays {
+  width: 100%;
+  height: 5rem;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.weekdays div {
+  font-size: .8rem;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 0.1rem;
+  width: calc(44.2rem / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.347);
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.days div {
+  font-size: .7rem;
+  color: #262626;
+  margin: 0.3rem;
+  width: calc(40.2rem / 7);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.084);
+  transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+  background-color: #262626;
+  border: 0.2rem solid #777;
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: #00356B;
+}
+
+/*Footer */
+
+.footer{
+  background-color: #00356B;
+
+  background-color: #ffffff;
+  z-index: 9999;
+  position: relative;
+  padding-top:25px;
+}
+.container-foot{
+  display: flex;
+    align-content: center;
+  align-items: center;
+}
+.footer-logo{
+  flex:  auto;
+}
+.footer-menu{
+  min-width: 260px;
+}
+.footer-title {
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.logo {
+  width: 190px;
+  display: inline-flex;
+}
+.logo-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+.list-unstyled{
+  display: flex;
+  flex-direction: column;
+  justify-items:flex-start;
+
+}
+
+li.coli i{
+  font-size: 35px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2px;
+  color: black;
+}
+
+li.coli{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 40px;
+  margin-left: 50px;
+}
+#pC2022{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.foo{
+  height: 35px;
+  color: black;
+
+}
+.col-lg-3{
+    flex: 0 0 auto;
+    width: 25%;
+    height: 250px;
+    position: absolute;
+    margin-left: 1050px;
+    margin-right: 20px;
+}
+
+.textC{
+  color: black;
+}
+
+
+
+/* Left menu in smaller screen*/
+@media only screen and (max-width:600px){
+  .side-nav{
+    width: 110px;
+  }
+  .logo-img{
+    width: 110px;
+  }
+  .nav-links li a{
+    margin-left: 0;
+    font-size: 15px;
+    justify-content: center;
+  }
+}
+
+
